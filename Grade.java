@@ -2,12 +2,8 @@ class Grade
 {
 	public static void main(String[] args) 
 	{				 
-		int phy=5;
-		int chem=6;
-		int bio=9;
-		int math=8;
-		int co=8; 
-		float total=phy+chem+bio+math+co;
+		int phy=5,chem=6,bio=9,math=8,co=8; 
+		int total=phy+chem+bio+math+co;
 		float per=(total/500)*100;
 		System.out.println("Percentage Of Student Is : "+per);
 		if(per>=90)
