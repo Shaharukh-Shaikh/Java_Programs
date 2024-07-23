@@ -1,8 +1,7 @@
 class Armstrong 
 {
-	public static void main(String[] args) 
-	{
-		int num=1536,rem=0,cube=0,arm=0,num1=num;
+	public static void isArmstrong(){
+		int num=153,rem=0,cube=0,arm=0,num1=num;
 		while(num!=0)
 		{
 			rem=num%10;
@@ -16,6 +15,10 @@ class Armstrong
 		}else{
 			System.out.print("Number Is Not an ArmStrong Number");
 		}
+	}
+	public static void main(String[] args) 
+	{
 		
+		isArmstrong();
 	}
 }
